@@ -23,4 +23,4 @@ xi = [10 ** (-i) for i in range(1, 12)]
 for x in xi:
    print(f"f({x}) = {f(x)}")
    print(f"Error Absoluto:{abs(fcc(x) - f(x))}")
-   print(f"Error Relativo:{abs(fcc(x) - f(x)) / f(x))}")
+   print(f"Error Relativo:{abs(fcc(x) - f(x)) / f(x)}")
