@@ -16,3 +16,11 @@ if __name__ == "__main__":
 
    for x in xi:
       print(f"f({x}) = {f(x)}")
+
+# Otro ej con error abs
+fcc = lambda x: (1 - np.cos(x)) / x**2
+xi = [10 ** (-i) for i in range(1, 12)]
+for x in xi:
+   print(f"f({x}) = {f(x)}")
+   print(f"Error Absoluto:{abs(fcc(x) - f(x))}")
+   print(f"Error Relativo:{abs(fcc(x) - f(x)) / f(x))}")
