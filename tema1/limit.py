@@ -14,8 +14,10 @@ if __name__ == "__main__":
    # Opcion de definir manual xi = [1.0e - 5, 1.0e - 6, 1.0e - 7, 1.0e - 8]
    xi = [1.0e-5 * 10 ** (-i) for i in range(7)]
 
+   """
    for x in xi:
       print(f"f({x}) = {f(x)}")
+   """
 
 # Otro ej con error abs
 fcc = lambda x: (1 - np.cos(x)) / x**2
