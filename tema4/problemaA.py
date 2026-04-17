@@ -2,7 +2,7 @@ import math as m
 
 """
 Implementa en Python las tres fórmulas de diferencias finitas vistas en clase
-Aplicar para f(x) = xsin(x) para aproximar f'(pi/2) cuyo valor exacto es = 1
+Aplicar para f(x) = xsin(x) para aproximar df(pi/2) cuyo valor exacto es = 1
 """
 
 def f(x):
