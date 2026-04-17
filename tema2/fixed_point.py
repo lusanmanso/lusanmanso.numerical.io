@@ -33,3 +33,4 @@ if __name__ == "__main__":
     g3 = lambda x: 1.0 + 1.0 / x
     g4 = lambda x: x - f(x) / (2 * x - 1)
     x_root = punto_fijo(g4, 1.5, verbose=True)
+
