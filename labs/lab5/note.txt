@@ -1,0 +1,4 @@
+La calificación de este laboratorio sustituirá (si es mejor) a la segunda peor nota de los laboratorios 1 a 4 (la peor ya se descarta por defecto; este laboratorio permite descartar otra más).
+
+
+El enunciado ofrece dos opciones A (Tema 4.3. Diferenciación Automática) o B (Tema 6. Integración Numérica). Elige una y entrégala como lab5_A.py o lab5_B.py. Solo se puede entregar una de las dos opciones (A o B).
