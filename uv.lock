@@ -9,6 +9,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "matplotlib" },
     { name = "numpy" },
+    { name = "scypy" },
     { name = "sympy" },
 ]
 
@@ -16,6 +17,7 @@ dependencies = [
 requires-dist = [
     { name = "matplotlib", specifier = ">=3.10.9" },
     { name = "numpy", specifier = ">=2.4.1" },
+    { name = "scypy", specifier = ">=0.0.8" },
     { name = "sympy", specifier = ">=1.14.0" },
 ]
 
@@ -375,6 +377,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/66/c0/0c8b6ad9f17a802ee498c46e004a0eb49bc148f2fd230864601a86dcf6db/python-dateutil-2.9.0.post0.tar.gz", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3", size = 342432, upload-time = "2024-03-01T18:36:20.211Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl", hash = "sha256:a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427", size = 229892, upload-time = "2024-03-01T18:36:18.57Z" },
+]
+
+[[package]]
+name = "scypy"
+version = "0.0.8"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/6f/c5/72ef939228f5680095709c6c9bfdb4f6153c9629e90dc04ddc4c44c3035f/scypy-0.0.8.tar.gz", hash = "sha256:14cdba706f5b5e864a0c13f92000e986fd6051b9725472af636fba0a8319b492", size = 43299, upload-time = "2025-06-11T10:03:11.47Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/79/0e/97709770f09b57c0c8da538ecc3c65301956a3474f5567b46e3446f0096e/scypy-0.0.8-py3-none-any.whl", hash = "sha256:61248138f0032961ba8a915cbd48184b0296e6161651a62f7096548d8d4c8b65", size = 62145, upload-time = "2025-06-11T10:03:10.024Z" },
 ]
 
 [[package]]
