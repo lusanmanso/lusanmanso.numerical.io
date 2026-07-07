@@ -22,7 +22,7 @@ def binom_factorial(a):
 
    # res = (math.factorial(a)) / (math.factorial(b)*(math.factorial(a-b)))
 
-   res = fact(a) / fact(b)*fact(a-b)
+   res = fact(a) / (fact(b)*fact(a-b))
 
    return res
 
@@ -39,6 +39,9 @@ if __name__ == "__main__":
 # b) Implementa producto y determina el mayor a) para el que devuelve resultado finito
 
 def formula_producto(a, b):
-   pass
+   r = 1.0
+   for i in range (1, b+1):
+      r *= (a-b+i) / i
+   return r
 
 # c) Comprueba si ambas expresiones son equiv.

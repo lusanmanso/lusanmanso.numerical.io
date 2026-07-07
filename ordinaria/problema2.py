@@ -15,6 +15,7 @@ def halley(f, df, d2f, x0, x, tol=1.e-8, maxit=50, verbose=True):
       error  = abs(x_next - x_k)
 
       k = k+1
+      x_k = x_next # tenia que actualizar el punto :(
 
    return x_next
 
